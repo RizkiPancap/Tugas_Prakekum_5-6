@@ -25,7 +25,7 @@ def rotateImage(image, degree):
 image = img.imread('D:\\Kampus\\SEMESTER 5\\Pengolahan Citra Digital\\Sesi 5 & 6\\Horse.jpg')
 
 # Memutar gambar sebesar 45 derajat
-rotated_image = rotateImage(image, 90)
+rotated_image = rotateImage(image, 45)
 
 # Menampilkan gambar asli dan gambar yang telah diputar
 plt.subplot(1, 2, 1)
@@ -34,7 +34,7 @@ plt.imshow(image)
 plt.axis('off')
 
 plt.subplot(1, 2, 2)
-plt.title("Rotated Image (90)")
+plt.title("Rotated Image )
 plt.imshow(rotated_image.astype(np.uint8))  # Pastikan gambar ditampilkan dalam format uint8
 plt.axis('off')
 
